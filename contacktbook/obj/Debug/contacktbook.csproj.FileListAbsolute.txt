@@ -1,0 +1,48 @@
+D:\C#\VSProjects\contacktbook\contacktbook\bin\Debug\contacktbook.exe.config
+D:\C#\VSProjects\contacktbook\contacktbook\bin\Debug\contacktbook.exe
+D:\C#\VSProjects\contacktbook\contacktbook\bin\Debug\contacktbook.pdb
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\MainWindow.g.cs
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\TheSecondWindow.g.cs
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\App.g.cs
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\MainWindow.baml
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\TheSecondWindow.baml
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.g.resources
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.exe
+D:\C#\VSProjects\contacktbook\contacktbook\obj\Debug\contacktbook.pdb
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.exe.config
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.exe
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.pdb
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\MainWindow.g.cs
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\TheSecondWindow.g.cs
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\App.g.cs
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.exe
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.pdb
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\MainWindow.baml
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\TheSecondWindow.baml
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.g.resources
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+C:\Users\Support3\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.exe.config
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.exe
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.pdb
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.exe
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\bin\Debug\contacktbook.pdb
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\MainWindow.g.cs
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\TheSecondWindow.g.cs
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\App.g.cs
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\MainWindow.baml
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\TheSecondWindow.baml
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.g.resources
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
