@@ -22,7 +22,7 @@
         <Label Content="Tel1" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top"/>
         <Label Content="Tel2" HorizontalAlignment="Left" Margin="21,172,0,0" VerticalAlignment="Top"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="21,197,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="AddObject" Content="AddObject" HorizontalAlignment="Left" Margin="432,181,0,0" VerticalAlignment="Top" Width="75" Click="AddObject_Click"/>
+        <Button x:Name="AddObject" Content="AddToDB" HorizontalAlignment="Left" Margin="432,181,0,0" VerticalAlignment="Top" Width="75" Click="AddObject_Click"/>
 
     </Grid>
 </Window>

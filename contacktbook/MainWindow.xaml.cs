@@ -3,25 +3,21 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Xml.Serialization;
+using System.Data.SQLite;
 
 
 namespace contacktbook
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
+        DataBase db = new DataBase();
+        
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnSwitch_Click(object sender, RoutedEventArgs e)
-        {
-            TheSecondWindow secondWindow = new TheSecondWindow();
-            secondWindow.Show();
-            this.Hide();
+            db.createNewDatabase();
+            db.CreateTable();
         }
 
 
@@ -38,11 +34,19 @@ namespace contacktbook
             }
         }
 
-        private void AddObject_Click(object sender, RoutedEventArgs e)
+
+        
+        private void btnSwitch_Click(object sender, RoutedEventArgs e)
         {
-            
+            TheSecondWindow secondWindow = new TheSecondWindow();
+            secondWindow.Show();
+            this.Hide();
         }
 
+        private void AddObject_Click(object sender, RoutedEventArgs e)
+        {
+            db.UpdateContacts();
+        }
 
     }
 }
