@@ -16,8 +16,11 @@ namespace contacktbook
         public MainWindow()
         {
             InitializeComponent();
+            DataBase db = new DataBase();
             db.createNewDatabase();
-            db.CreateTable();
+            
+           // db.createNewDatabase();
+          //  db.CreateTable();
         }
 
 
@@ -45,7 +48,9 @@ namespace contacktbook
 
         private void AddObject_Click(object sender, RoutedEventArgs e)
         {
-            db.UpdateContacts();
+            DataBase db = new DataBase();
+            db.updateContact(new Contact(FirstName.Text, SecondName.Text, Tel1.Text, Tel2.Text, Email.Text));
+            //db.UpdateContacts();
         }
 
     }

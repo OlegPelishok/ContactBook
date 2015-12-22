@@ -30,6 +30,15 @@ namespace contacktbook
             Tel2 = tel2;
             Email = email;
         }
+        public Contact(string firstname, string secondName, string tel1,
+            string tel2, string email)
+        {
+            FirstName = firstname;
+            SecondName = secondName;
+            Tel1 = tel1;
+            Tel2 = tel2;
+            Email = email;
+        }
     }
 
 }
