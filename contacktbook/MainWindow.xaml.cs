@@ -11,7 +11,7 @@ namespace contacktbook
 
     public partial class MainWindow : Window
     {
-        DataBase db = new DataBase();
+       // DataBase db = new DataBase();
         
         public MainWindow()
         {
@@ -25,7 +25,7 @@ namespace contacktbook
 
 
         private void Parse_Click(object sender, RoutedEventArgs e)
-        {
+        {/*
 
             Contact contact = new Contact("1", "Sokhan", "Oleg", "0671111111", "6916", "oleg.sokhan@rosan-it.com");
             Contact contact1 = new Contact("2", "Taras", "Roman", "0671111111", "6915","taras.roman@rosan-it.com");
@@ -35,8 +35,9 @@ namespace contacktbook
             {
                 formatter.Serialize(fs, AllContacts);
             }
+           */
         }
-
+        
 
         
         private void btnSwitch_Click(object sender, RoutedEventArgs e)
