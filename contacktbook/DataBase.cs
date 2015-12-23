@@ -27,7 +27,7 @@ namespace contacktbook
                 using (var connection = new SQLiteConnection(connString))
                 {
                     connection.Open();
-                    string createContactTableQuery = @"CREATE TABLE contacts (ID INT, 
+                    string createContactTableQuery = @"CREATE TABLE contacts (ID INTEGER PRIMARY KEY, 
                                                        first_name VARCHAR(20), second_name VARCHAR(20),
                                                        tel1 VARCHAR(20), tel2 VARCHAR(20), email VARCHAR(30))";
                     SQLiteCommand createTable = new SQLiteCommand(createContactTableQuery, connection);
@@ -51,15 +51,31 @@ namespace contacktbook
             }
         }
 
-       
-        //public void UpdateContacts(Contact contact)
-        //{
-        //    conn.Open();
-        //    SQLiteCommand cmd = new SQLiteCommand(
-        //        string.Format(UpdateContactsTable, ID.Text, FirstName.Text, SecondName.Text, Tel1.Text, Tel2.Text, Email.Text), conn);
-        //    cmd.ExecuteNonQuery();
-        //    conn.Clone();
-        //}
+        public void deleteContact(Contact contact)
+        {
+            using (var connection = new SQLiteConnection(connString))
+            {
+                connection.Open();
+                string deleteContactTableQuery = String.Format(@"DELETE * FROM contacts WHERE first_name = '{0}' 
+                                                               AND second_name = '{1}'", contact.FirstName, contact.SecondName);
+                SQLiteCommand deleteCommand = new SQLiteCommand(deleteContactTableQuery, connection);
+                deleteCommand.ExecuteNonQuery();
+            }
+        }
+        public SQLiteDataReader selectContact()
+        {
+            using (var connection = new SQLiteConnection(connString))
+            {
+                string selectContactsQuery = "SELECT * FROM contacts";
+                connection.Open();
+                SQLiteCommand selectAllContacts = new SQLiteCommand(selectContactsQuery, connection);
+               var allContactsTableReader =  selectAllContacts.ExecuteReader();
+               return allContactsTableReader;
+            }
+
+        }
+
+
     }
 }
 
