@@ -2,11 +2,46 @@
 <ListOfConacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <contactList>
     <Contact>
-      <FirstName>Taras</FirstName>
-      <SecondName>Roman</SecondName>
-      <Tel1>0673706090</Tel1>
-      <Tel2>0936883221</Tel2>
-      <Email>tarass.roamn@gmail.com</Email>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Pelishok</SecondName>
+      <Tel1>+380632874241</Tel1>
+      <Tel2>6913</Tel2>
+      <Email>oleg.pelishok@yahoo.net</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Sokhan</SecondName>
+      <Tel1>+380673705466</Tel1>
+      <Tel2>6916</Tel2>
+      <Email>oleg.sokhan@rosan-it.com</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Pelishok</SecondName>
+      <Tel1>+380632874241</Tel1>
+      <Tel2>6913</Tel2>
+      <Email>oleg.pelishok@yahoo.net</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Sokhan</SecondName>
+      <Tel1>+380673705466</Tel1>
+      <Tel2>6916</Tel2>
+      <Email>oleg.sokhan@rosan-it.com</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Pelishok</SecondName>
+      <Tel1>+380632874241</Tel1>
+      <Tel2>6913</Tel2>
+      <Email>oleg.pelishok@yahoo.net</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Sokhan</SecondName>
+      <Tel1>+380673705466</Tel1>
+      <Tel2>6916</Tel2>
+      <Email>oleg.sokhan@rosan-it.com</Email>
     </Contact>
     <Contact>
       <FirstName>Oleh</FirstName>
@@ -42,6 +77,34 @@
       <Tel1>+380673705466</Tel1>
       <Tel2>6916</Tel2>
       <Email>oleg.sokhan@rosan-it.com</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Taras</FirstName>
+      <SecondName>Roman</SecondName>
+      <Tel1>0673706090</Tel1>
+      <Tel2>0936883221</Tel2>
+      <Email>tarass.roamn@gmail.com</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Pelishok</SecondName>
+      <Tel1>+380632874241</Tel1>
+      <Tel2>6913</Tel2>
+      <Email>oleg.pelishok@yahoo.net</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Oleh</FirstName>
+      <SecondName>Sokhan</SecondName>
+      <Tel1>+380673705466</Tel1>
+      <Tel2>6916</Tel2>
+      <Email>oleg.sokhan@rosan-it.com</Email>
+    </Contact>
+    <Contact>
+      <FirstName>Taras</FirstName>
+      <SecondName>Perkhach</SecondName>
+      <Tel1>252598</Tel1>
+      <Tel2>6919</Tel2>
+      <Email>t.perh@gmail.com</Email>
     </Contact>
   </contactList>
 </ListOfConacts>

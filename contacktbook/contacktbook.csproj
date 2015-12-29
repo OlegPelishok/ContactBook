@@ -80,6 +80,7 @@
     <Compile Include="Contact.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="ListOfConacts.cs" />
+    <Compile Include="LoggerClass.cs" />
     <Compile Include="OptionsWindow.xaml.cs">
       <DependentUpon>OptionsWindow.xaml</DependentUpon>
     </Compile>
