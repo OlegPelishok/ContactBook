@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\
+D:\GIT\GITINIT\ContactBook\contacktbook\obj\Debug\
 contacktbook
 none
 false
 DEBUG;TRACE
-C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\App.xaml
-21141874676
+D:\GIT\GITINIT\ContactBook\contacktbook\App.xaml
+31351473589
 
-11538101414
-13-1142990016
-MainWindow.xaml;TheSecondWindow.xaml;
+15-1113855182
+14-1606538470
+MainWindow.xaml;OptionsWindow.xaml;TheSecondWindow.xaml;
 
-False
+True
 

@@ -46,3 +46,65 @@ C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Deb
 C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.g.resources
 C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
 C:\Users\Olezhuk\Desktop\мій фонебук\contacktbook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\bin\Debug\contacktbook.exe.config
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.exe
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.pdb
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\bin\Debug\contacktbook.exe
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\bin\Debug\contacktbook.pdb
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\bin\Debug\System.Data.SQLite.dll
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\bin\Debug\System.Data.SQLite.xml
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\MainWindow.g.cs
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\TheSecondWindow.g.cs
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\App.g.cs
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\MainWindow.baml
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\TheSecondWindow.baml
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.g.resources
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+C:\Users\Olezhuk\Desktop\ContactBook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+D:\GIT\ContactBook\contacktbook\bin\Debug\contacktbook.exe.config
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.exe
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.pdb
+D:\GIT\ContactBook\contacktbook\obj\Debug\MainWindow.g.cs
+D:\GIT\ContactBook\contacktbook\obj\Debug\TheSecondWindow.g.cs
+D:\GIT\ContactBook\contacktbook\obj\Debug\App.g.cs
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+D:\GIT\ContactBook\contacktbook\bin\Debug\contacktbook.exe
+D:\GIT\ContactBook\contacktbook\bin\Debug\contacktbook.pdb
+D:\GIT\ContactBook\contacktbook\bin\Debug\System.Data.SQLite.dll
+D:\GIT\ContactBook\contacktbook\bin\Debug\System.Data.SQLite.xml
+D:\GIT\ContactBook\contacktbook\obj\Debug\MainWindow.baml
+D:\GIT\ContactBook\contacktbook\obj\Debug\TheSecondWindow.baml
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.g.resources
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+D:\GIT\ContactBook\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\bin\Debug\contacktbook.exe.config
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.exe
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.pdb
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\bin\Debug\contacktbook.exe
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\bin\Debug\contacktbook.pdb
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\bin\Debug\System.Data.SQLite.dll
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\bin\Debug\System.Data.SQLite.xml
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.csprojResolveAssemblyReference.cache
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\MainWindow.g.cs
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\TheSecondWindow.g.cs
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\App.g.cs
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook_MarkupCompile.cache
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook_MarkupCompile.lref
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\MainWindow.baml
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\TheSecondWindow.baml
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.g.resources
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.Properties.Resources.resources
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\contacktbook.csproj.GenerateResource.Cache
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\OptionsWindow.baml
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\ContactBook-RefactorDataBaseClass\ContactBook-RefactorDataBaseClass\contacktbook\obj\Debug\OptionsWindow.g.cs
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder (3)\ContactBook\contacktbook\bin\Debug\contacktbook.exe.config
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder (3)\ContactBook\contacktbook\obj\Debug\contacktbook.exe
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder (3)\ContactBook\contacktbook\obj\Debug\contacktbook.pdb
+D:\GIT\GITINIT\ContactBook\contacktbook\bin\Debug\contacktbook.exe.config
+D:\GIT\GITINIT\ContactBook\contacktbook\obj\Debug\contacktbook.exe
+D:\GIT\GITINIT\ContactBook\contacktbook\obj\Debug\contacktbook.pdb

@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SQLite;
+using System.IO;
+
+namespace contacktbook
+{
+    /// <summary>
+    /// Class for working with DB
+    /// </summary>
+    public class DataBase
+    {
+        private const string connString = "Data Source=ContactsDataBase.sqlite;Version=3;";
+        public SQLiteConnection conn = new SQLiteConnection("Data Source=ContactsDataBase.sqlite;Version=3;");
+        public string CreateTableContacts = "create table Contacts (Id varchar(20), FirstName varchar(20), SecondName varchar(20), Tel1 varchar(20), Tel2 varchar(20), Email varchar(20))";
+        private string UpdateContactsTable = "insert into Contacts (Id, FirstName, SecondName, Tel1, Tel2, Email) values ('{0}','{1}','{2}','{3}','{4}','{5}')";
+        
+        public void createNewDatabase()
+        {
+            if (!(File.Exists("ContactsDataBase.sqlite")))
+            {
+                SQLiteConnection.CreateFile("ContactsDataBase.sqlite");
+
+                using (var connection = new SQLiteConnection(connString))
+                {
+                    string createContactTableQuery = @"CREATE TABLE contacts (ID INTEGER AUTOINCREMENT, 
+                                                                  first_name VARCHAR(20),
+                                                                  second_name VARCHAR(20),
+                                                                  tel1 VARCHAR(20), 
+                                                                  tel2 VARCHAR(20), 
+                                                                  email VARCHAR(30)))";
+                    SQLiteCommand createTable = new SQLiteCommand(createContactTableQuery, conn);
+                    createTable.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void updateContact(Contact contact)
+        {
+            using( var connection = new SQLiteConnection(connString))
+            {
+                string updateContactTableQuery = String.Format(@"INSERT INTO contacts (first_name, second_name, tel1, tel2, email) values 
+                                                               ({0}, {1}, {2}, {3}, {4})", contact.FirstName, contact.SecondName,
+                                                               contact.Tel1, contact.Tel2, contact.Email);
+                SQLiteCommand updateCommand = new SQLiteCommand(updateContactTableQuery, connection);
+                updateCommand.ExecuteNonQuery();
+            }
+        }
+
+       
+        //public void UpdateContacts(Contact contact)
+        //{
+        //    conn.Open();
+        //    SQLiteCommand cmd = new SQLiteCommand(
+        //        string.Format(UpdateContactsTable, ID.Text, FirstName.Text, SecondName.Text, Tel1.Text, Tel2.Text, Email.Text), conn);
+        //    cmd.ExecuteNonQuery();
+        //    conn.Clone();
+        //}
+    }
+}
+
+
