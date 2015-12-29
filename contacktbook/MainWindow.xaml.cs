@@ -31,20 +31,19 @@ namespace contacktbook
            DataBase db = new DataBase();
            db.deleteContact(new Contact(FirstName.Text, SecondName.Text));
    }
-        
-
-        
+   
         private void btnSwitch_Click(object sender, RoutedEventArgs e)
         {
-            
-
            TheSecondWindow secondWindow = new TheSecondWindow();
             secondWindow.Show();
             this.Close();
-            
         }
 
-      
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoggerClass logger = new LoggerClass();
+            logger.writeLog("Hello world");
+        }
+        
     }
 }

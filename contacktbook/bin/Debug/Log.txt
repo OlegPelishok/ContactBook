@@ -1,0 +1,13 @@
+29.12.2015 16:11:16SQL Statement Error
+29.12.2015 16:31:31Database file does not exist 
+29.12.2015 16:31:32SQL Statement Error 
+29.12.2015 16:33:02 Database file does not exist
+29.12.2015 16:33:05 SQL Statement Error
+29.12.2015 16:54:30 Starteg work
+29.12.2015 16:54:35 SQL Statement Error
+29.12.2015 16:54:37 Starteg work
+29.12.2015 16:56:04 Getting Started
+29.12.2015 16:56:08 SQL Statement Error
+29.12.2015 16:56:10 Getting Started
+29.12.2015 17:02:55 Main window started
+29.12.2015 17:03:28 Main window started

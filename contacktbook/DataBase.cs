@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.IO;
+using System.Windows;
 
 namespace contacktbook
 {
@@ -29,6 +30,10 @@ namespace contacktbook
                                                        tel1 VARCHAR(20), tel2 VARCHAR(20), email VARCHAR(30))";
                     SQLiteCommand createTable = new SQLiteCommand(createContactTableQuery, connection);
                     createTable.ExecuteNonQuery();
+                    // Creating notation to Log file
+                    LoggerClass logger = new LoggerClass();
+                    logger.writeLog(" Database file does not exist");
+
                 }
             }
         }
@@ -38,6 +43,8 @@ namespace contacktbook
             using( var connection = new SQLiteConnection(connString))
             {
                 connection.Open();
+                try 
+               {
                 string updateContactTableQuery = String.Format(@"INSERT INTO contacts 
                                                               (first_name, second_name, tel1, tel2, email) VALUES
                                                               ('{0}', '{1}', '{2}', '{3}', '{4}')", 
@@ -45,17 +52,43 @@ namespace contacktbook
                                                               contact.Tel1, contact.Tel2, contact.Email);
                 SQLiteCommand updateCommand = new SQLiteCommand(updateContactTableQuery, connection);
                 updateCommand.ExecuteNonQuery();
+                }
+
+                catch (SQLiteException e)
+                {
+                    LoggerClass logger = new LoggerClass();
+                    logger.writeLog(" SQL Statement Error");
+                    MessageBox.Show("Error!");
+
+                }
+
+                catch (Exception e)
+                {
+                    LoggerClass logger = new LoggerClass();
+                    logger.writeLog(" Unknown error");
+                    MessageBox.Show("Error!");
+                }
             }
         }
-
+ 
         public void deleteContact(Contact contact)
         {
             using (var connection = new SQLiteConnection(connString))
             {
-                connection.Open();
-                string deleteContactTableQuery = String.Format("DELETE FROM contacts WHERE first_name = '{0}' AND second_name = '{1}'", contact.FirstName, contact.SecondName);
-                SQLiteCommand deleteCommand = new SQLiteCommand(deleteContactTableQuery, connection);
-                deleteCommand.ExecuteNonQuery();
+                try
+                {
+                    connection.Open();
+                    string deleteContactTableQuery = String.Format("DELETE FROM contacts WHERE first_name = '{0}' AND second_name = '{1}'", contact.FirstName, contact.SecondName);
+                    SQLiteCommand deleteCommand = new SQLiteCommand(deleteContactTableQuery, connection);
+                    deleteCommand.ExecuteNonQuery();
+
+                }
+                catch (Exception e)
+                {
+                    LoggerClass logger = new LoggerClass();
+                    logger.writeLog(" Delete querry error");
+                    MessageBox.Show("Error!");
+                }
             }
         }
         public SQLiteDataReader selectContact()
@@ -66,11 +99,7 @@ namespace contacktbook
                 SQLiteCommand selectAllContacts = new SQLiteCommand(selectContactsQuery, connection);
                var allContactsTableReader =  selectAllContacts.ExecuteReader();
                return allContactsTableReader;
-            
-
         }
-
-
     }
 }
 

@@ -35,14 +35,24 @@ namespace contacktbook
         public TheSecondWindow()
         {
             InitializeComponent();
-
+            // Creating notation to Log file
+            LoggerClass logger = new LoggerClass();
+            logger.writeLog(" Main window started");
+            //Starting fill the datagrid
             var list = new ObservableCollection<DataObject>();
             DataBase db = new DataBase();
-            SQLiteDataReader reader =  db.selectContact();
-            while (reader.Read())
+            try
             {
-                list.Add(new DataObject() {O = reader["ID"].ToString(), A = "" + reader["first_name"], B = ""+ reader["second_name"], C = ""+reader["tel1"], D = ""+ reader["tel2"], E = ""+ reader["email"]});
-                this.dataGrid1.ItemsSource = list;
+                SQLiteDataReader reader = db.selectContact();
+                while (reader.Read())
+                {
+                    list.Add(new DataObject() { O = reader["ID"].ToString(), A = "" + reader["first_name"], B = "" + reader["second_name"], C = "" + reader["tel1"], D = "" + reader["tel2"], E = "" + reader["email"] });
+                    this.dataGrid1.ItemsSource = list;
+                }
+            }
+            catch (Exception e)
+            {
+              logger.writeLog(" SQL select querry error");
             }
 
          }
@@ -65,7 +75,6 @@ namespace contacktbook
         private void Button_Close_Click(object sender, RoutedEventArgs e)
         {
             Close();
-
         }
     }
 }
